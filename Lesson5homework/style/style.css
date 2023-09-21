@@ -1,0 +1,17 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Logosection{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    font-weight: bolder;
+    justify-content:space-evenly;
+    width:250px;
+}
+.mergerdiv{
+    text-align: center;
+}
+#short{
+    text-align: left;
+}
