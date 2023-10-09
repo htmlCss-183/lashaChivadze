@@ -1,0 +1,432 @@
+@font-face {
+    font-family: Manrope;
+    src: url(./fonts/static/Manrope-Regular.ttf);
+}
+@font-face {
+    font-family:THICCCBOI ;
+    src: url(./fonts/fonts/TTF/THICCCBOI-Regular.ttf);
+}
+
+#logo{
+    color: #DEDEDE;
+    font-family: 'THICCCBOI';
+    font-size: 35.385px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.737px;
+    width: 23px;
+    height: 31.846px;
+    flex-shrink: 0;
+    position: relative;
+    top:20px;
+    bottom:28.15px;
+    
+}
+#Logohere{
+    color: #DEDEDE;
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    position: relative;
+    left:11px;
+}
+.Logosection{
+   display: inline-flex;
+   position: relative;
+   left:100px;
+   
+}
+.NavMenu a{
+    color: #DEDEDE;
+    font-family:'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+    position:  relative;
+    top:30px;
+    bottom:25px;
+    right:109px;
+    padding:10px;
+}
+.Header{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1550px;
+    height: 80px;
+    flex-shrink: 0;
+    background: rgba(20, 19, 19, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+body{
+    width: 1400px;
+    height: 5750px;
+    background-color:  #202020;;
+}
+.Main{
+    display:flex;
+    flex-direction: row;
+    color: #dbd1d1;
+    font-family:'Manrope';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 109.375% */
+    letter-spacing: -0.5px;
+    width: 100%;
+    position: relative;
+    top:109px;
+    left:96px;
+}
+#text2{
+    position: relative;
+    top:2px;
+    
+}
+
+.maintext{
+    display:flex;
+    flex-direction: column;
+}
+
+#kacisfoto{
+    position: relative;
+    left:250px;
+    top:80px;
+    right:202px;
+    width: 550px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 550px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #494949;
+}
+
+#emaillogo{
+    width: 20.571px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+#email{
+    color: #FFF;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+.emailbutton{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    height: 64px;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #9D9D9D;
+    
+}
+
+#Arrow{
+    width: 20px;
+    stroke-width: 2px;
+    stroke: #ffffff;
+
+}
+
+#FeaturedWork{
+    color: #DEDEDE;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    position: relative;
+    left:32px;
+    
+}
+
+.Arrowbutton{
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    top:157px;
+    right:5px;
+}
+
+.foto12{
+    width: 612px;
+    height: 888px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #292929;
+    position:absolute;
+    top: 1300px;
+    right: 795px;
+}
+
+#foto2{
+    position: relative;
+    bottom: 110px;
+    
+}
+
+
+#InVersion{
+    color: #DEDEDE;
+    font-family: "Manrope";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    position: relative;
+    left: 225px;
+    right: 217px;
+    bottom: 510px;
+}
+
+.foto34{
+    width: 612px;
+    height: 888px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #292929;
+    position: absolute;
+    top:1412px; 
+    right:170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fotomerger{
+    display: flex;
+    flex-direction: row ;
+    position:absolute;
+    left:1400px;
+
+}
+
+#VisualExplorations{
+    color: #DEDEDE;
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    position:relative;
+    top:3442px;
+    right:640px;
+    
+}
+
+.foto567{
+    width: 400px;
+    height: 408px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #292929;
+    align-items: center;
+    position:absolute;
+    top:3656px;
+    right:1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+#foto5cubic{
+    position: relative;
+    right:24px;
+}
+
+#foto7oriskami{
+    position: relative;
+    left:24px;
+}
+
+.foto8910{
+    width: 400px;
+    height: 408px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #292929;
+    align-items: center;
+    position:absolute;
+    top:4090px;
+    right:1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+#foto8kibe{
+    position: relative;
+    right:24px;
+}
+
+#foto10windows{
+    position: relative;
+    left:24px;
+}
+.fotos{
+    position: relative;
+    left:55px;
+}
+
+.PersonalProjects p{
+    color: #DEDEDE;
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    position:absolute;
+    top: 4700px;
+    right:595px;
+    
+}
+
+.fotos2{
+    width: 400px;
+    height: 560px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #292929;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 4880px;
+    left: 32px;
+    align-items: center;
+}
+
+#foto11figma{
+    padding-right: 24px;
+}
+
+#foto13witelixeluka{
+    padding-left: 24px;
+}
+
+#contact{
+    color: #DEDEDE;
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    position:absolute;
+    top:5852px;
+    left: 650px;
+}
+
+#highfootertext{
+    color: #959595;
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: -0.5px;
+    position:absolute;
+    top: 5925px;
+    left: 530px;
+}
+
+#footeremaillogo{
+    width: 20.571px;
+    height: 16px;
+    flex-shrink: 0;
+
+}
+
+#footeremail{
+    color: #FFF;
+    font-family:"Manrope";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.footermail{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    top: 5130px;
+    left: 500px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 64px;
+    padding: 16px 48px;
+    gap: 16px;
+    flex-shrink: 0;
+    right:27px;
+    border-radius: 4px;
+    background: #9D9D9D;
+    
+}
+
+.lowerfooter hr{
+    width:1544px ;
+    height: 1px;
+    flex-shrink: 0;
+    background: #696969;
+    position: relative;
+    right:40px;
+}
+
+.lowerfooter {
+    position: relative;
+    top:5300px;
+    left:36px;
+}
+.lowerfooter p{
+    color: #959595;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 225% */
+    letter-spacing: -0.5px;
+    justify-content: start;
+    position: relative;
+    top: 48px;
+    left: 46px;
+}
+
+.lowerlowerfooter img{
+    width: 29px;
+    height: 18px;
+    position: absolute;
+    left: 1400px;
+    
+}
+
+#whatsapp{
+    right:20px;
+}
