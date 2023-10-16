@@ -1,0 +1,362 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.maintext{
+    position: absolute;
+    top: 70px;
+}
+
+
+.Maintext1 h6{
+    color: var(--primary-text-color, #1BC768);
+    /* h6 */
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+    text-align: start;
+    position: absolute;
+    top:112px;
+    left: 195px;
+}
+
+.Maintext1 h2{
+    color: var(--text-color, #252B42);
+    /* h2 */
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+    letter-spacing: 0.2px;
+    position: absolute;
+    top: 150px;
+    left: 190px;
+}
+
+#higherptag{
+    color: var(--second-text-color, #737373);
+    /* paragraph */
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    position: absolute;
+    top: 236px;
+    left: 195px;
+}
+
+.div1 img{
+    width: 32px;
+    height: 28.874px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 22px 19px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--faded-primary-color, #F9FDFF);
+}
+
+.div1 h5{
+    color: var(--text-color, #252B42);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+.div1 hr{
+    width: 50px;
+    height: 2px;
+    background: var(--danger-color, #E74040);
+    position: absolute;
+    left:42px;
+    top: 185px;
+}
+
+.div1 p{
+    color: var(--second-text-color, #737373);
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+.div1{
+    gap:20px;
+    padding:35px 40px;
+    position: absolute;
+    top:300px;
+    left:195px;
+    background: var(--light-background-color, #ffffff);
+    /* accentued-drop-shadow */
+    -webkit-box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+            box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    
+}
+
+
+.div2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 150px;
+    height: 225px;
+    padding: 35px 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 20px;
+    background: var(--light-background-color, #FFF);
+    /* accentued-drop-shadow */
+    -webkit-box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+            box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    position: absolute;
+    top:370px;
+    left:447px;
+    
+}
+
+.div2 img{
+    width: 32px;
+    height: 32px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 22px 19px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--faded-secondary-color-1, #DDEEFE);
+}
+
+.div2 h5{
+    color: var(--text-color, #252B42);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+    position: absolute;
+    top:108px;
+}
+
+.div2 hr{
+    width: 50px;
+    height: 2px;
+    background: var(--danger-color, #E74040);
+    position: absolute;
+    left:43px;
+    top: 162px;
+}
+
+.div2 p{
+    color: var(--second-text-color, #737373);
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    position: absolute;
+    top: 175px;
+}
+
+.div3{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 150px;
+    height: 225px ;
+    padding: 35px 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    top:340px;
+    left:710px;
+    background: var(--primary-color, #1BC768);
+}
+
+.div3 img{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 22px 19px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--light-background-color, #FFF);
+    width: 32px;
+    height: 32px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+.div3 h5{
+    color: var(--light-text-color, #ffffff);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+    position: absolute;
+    top: 108px;
+}
+
+.div3 hr{
+    width: 50px;
+    height: 2px;
+    background: var(--light-background-color, #E74040);
+    position: absolute;
+    left: 40px;
+    top:162px;
+}
+
+.div3 p{
+    width: 136px;
+    height: 80px;
+    color: var(--light-text-color, #ffffff);
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    position: absolute;
+    top: 175px;
+}
+
+.div4{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 150px;
+    height: 225px;
+    padding: 35px 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 20px;
+    background: var(--light-background-color, #FFF);
+    /* accentued-drop-shadow */
+    -webkit-box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+            box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    position: absolute;
+    top: 370px;
+    left: 970px;
+}
+
+.div4 img{
+    width: 24px;
+    height: 32px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 22px 19px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--faded-secondary-color-2, #B6D7FF);
+}
+
+.div4 h5{
+    color: var(--text-color, #252B42);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+    position: absolute;
+    top:100px;
+}
+
+.div4 hr{
+    width: 50px;
+    height: 2px;
+    background: var(--danger-color, #E74040);
+    position: absolute;
+    top: 162px;
+}
+
+.div4 p{
+    color: var(--second-text-color, #737373);
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    position: absolute;
+    top: 180px;
+}
