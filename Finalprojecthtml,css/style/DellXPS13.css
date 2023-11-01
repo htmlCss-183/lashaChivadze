@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 @font-face {
     font-family: monterrat;
@@ -8,15 +15,26 @@
 .mainthing h6{
     width: 500px;
     height: 500px;
-    box-shadow: 5px 5px 5px rgb(143, 140, 140);
+    -webkit-box-shadow: 5px 5px 5px rgb(143, 140, 140);
+            box-shadow: 5px 5px 5px rgb(143, 140, 140);
     position: absolute;
     left: 150px;
     top: 50px;
     background-image: url(/images/Dell_XPS_13.png);
     background-repeat: no-repeat;
-    animation: fotoslider 10s ease-in-out;
-    animation-iteration-count: infinite;
+    -webkit-animation: fotoslider 10s ease-in-out;
+            animation: fotoslider 10s ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
     
+}
+
+@-webkit-keyframes fotoslider{
+    20%{background-image: url(/images/Dell_XPS_13.png);}
+    40%{background-image: url(/images/Dell_XPS_132.png);}
+    60%{background-image: url(/images/Dell_XPS_133.png);}
+    80%{background-image: url(/images/Dell_XPS_134.png);}
+    100%{background-image: url(/images/Dell_XPS_13.png);}
 }
 
 @keyframes fotoslider{
@@ -46,14 +64,20 @@
     height:3px;
     left:0;
     width:100%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     border-radius: 25px;
-    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
     background: rgb(196, 23, 179);
 }
 
 #homebutton:hover::before{
-    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
 }
 
 
@@ -90,7 +114,8 @@
     position: absolute;
     left: 700px;
     top: 60px;
-    box-shadow: 4px 4px 4px gray;
+    -webkit-box-shadow: 4px 4px 4px gray;
+            box-shadow: 4px 4px 4px gray;
     /* background-color: rgb(216, 215, 215); */
     width: 400px;
 }
@@ -100,9 +125,13 @@
     text-decoration: none;
     color:black;
     font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 15px 30px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /* gap: 15px; */
     border:solid 1px;
     border-radius: 5px;
@@ -126,7 +155,8 @@
 }
 
 .otherproductsimg{
-    box-shadow: gray 2px 2px 2px;
+    -webkit-box-shadow: gray 2px 2px 2px;
+            box-shadow: gray 2px 2px 2px;
 }
 
 .delllatitude3340{
@@ -140,7 +170,8 @@
     position: absolute;
     top: 870px;
     left: 210px;
-    box-shadow: gray 2px 2px 2px;
+    -webkit-box-shadow: gray 2px 2px 2px;
+            box-shadow: gray 2px 2px 2px;
 }
 
 .delllatitude3340 h4{
@@ -184,7 +215,8 @@
     position: absolute;
     top: 850px;
     left: 520px;
-    box-shadow: gray 2px 2px 2px;
+    -webkit-box-shadow: gray 2px 2px 2px;
+            box-shadow: gray 2px 2px 2px;
 }
 
 .DellInspiron163 h4{
@@ -228,7 +260,8 @@
     position: absolute;
     top: 850px;
     left: 785px;
-    box-shadow: gray 2px 2px 2px;
+    -webkit-box-shadow: gray 2px 2px 2px;
+            box-shadow: gray 2px 2px 2px;
 }
 
 .dellg155530 h4{
@@ -272,7 +305,8 @@
     position: absolute;
     top: 850px;
     left: 1075px;
-    box-shadow: gray 2px 2px 2px;
+    -webkit-box-shadow: gray 2px 2px 2px;
+            box-shadow: gray 2px 2px 2px;
 }
 
 .dellxps9530 h4{
