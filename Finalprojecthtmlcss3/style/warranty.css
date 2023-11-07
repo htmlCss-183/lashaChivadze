@@ -134,3 +134,94 @@ nav a:hover::before{
 .warranty a:hover::before{
     transform: scaleX(1);
 }
+
+.information{
+    background-color: black;
+    position: absolute;
+    top: 1300px;
+    right: 0;
+    width: 1264px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.callus{
+    position: absolute;
+    left: 0px;
+}
+
+.callus p{
+    position: relative;
+    left: 300px;
+    top:50px;
+    color: white;
+}
+
+.callus h6{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 305px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info1{
+    position: relative;
+    left: 270px;
+}
+
+.info1 p{
+    position: relative;
+    left: 300px;
+    top:50px;
+    color: white;
+}
+
+.info1 a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 305px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info2 a{
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-right: 25px;
+    position: relative;
+    left: 705px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info2 p{
+    position: relative;
+    left: 640px;
+    top: 55px;
+    color: white;
+}
+
+.information a::before{
+    content: "";
+    position: absolute;
+    bottom:-3px;
+    height:2px;
+    left:-13px;
+    width:100%;
+    transition: 0.5s;
+    border-radius: 25px;
+    transform: scaleX(0);
+    background: rgb(248, 248, 248);
+}
+
+.information a:hover::before{
+    transform: scaleX(1);
+}
