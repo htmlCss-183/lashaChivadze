@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: monterrat;
-    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(../Finalprojecthtmlcss3/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 
@@ -97,7 +97,7 @@ nav a:hover::before{
     position: absolute;
     left: 150px;
     top: 50px;
-    background-image: url(/images/MSI_Katana_GF76\ \(1\).png);
+    background-image: url(../Finalprojecthtmlcss3/images/MSI_Katana_GF76\ \(1\).png);
     background-repeat: no-repeat;
     animation: fotoslider 10s ease-in-out;
     animation-iteration-count: infinite;
@@ -105,11 +105,11 @@ nav a:hover::before{
 }
 
 @keyframes fotoslider{
-    20%{background-image: url(/images/MSI_Katana_GF76\ \(1\).png);}
-    40%{background-image: url(/images/MSI_Katana_GF76\ \(2\).png);}
-    60%{background-image: url(/images/MSI_Katana_GF76\ \(3\).png);}
-    80%{background-image: url(/images/MSI_Katana_GF76\ \(4\).png);}
-    100%{background-image: url(/images/MSI_Katana_GF76\ \(1\).png);}
+    20%{background-image: url(../Finalprojecthtmlcss3/images/MSI_Katana_GF76\ \(1\).png);}
+    40%{background-image: url(../Finalprojecthtmlcss3/images/MSI_Katana_GF76\ \(2\).png);}
+    60%{background-image: url(../Finalprojecthtmlcss3/images/MSI_Katana_GF76\ \(3\).png);}
+    80%{background-image: url(../Finalprojecthtmlcss3/images/MSI_Katana_GF76\ \(4\).png);}
+    100%{background-image: url(../Finalprojecthtmlcss3/images/MSI_Katana_GF76\ \(1\).png);}
 }
 
 #homebutton{
