@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: monterrat;
-    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(../Finalprojecthtmlcss3/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 body{
@@ -95,7 +95,7 @@ nav a:hover::before{
     position: absolute;
     left: 150px;
     top: 50px;
-    background-image: url(/images/HPOmen16.png);
+    background-image: url(../Finalprojecthtmlcss3/images/HPOmen16.png);
     background-repeat: no-repeat;
     animation: fotoslider 10s ease-in-out;
     animation-iteration-count: infinite;
@@ -103,11 +103,11 @@ nav a:hover::before{
 }
 
 @keyframes fotoslider{
-    20%{background-image: url(/images/HPOmen16.png);}
-    40%{background-image: url(/images/HPOmen162.jpg);}
-    60%{background-image: url(/images/HPOmen163.jpg);}
-    80%{background-image: url(/images/HPOmen164.jpg);}
-    100%{background-image: url(/images/HPOmen16.png);}
+    20%{background-image: url(../Finalprojecthtmlcss3/images/HPOmen16.png);}
+    40%{background-image: url(../Finalprojecthtmlcss3/images/HPOmen162.jpg);}
+    60%{background-image: url(../Finalprojecthtmlcss3/images/HPOmen163.jpg);}
+    80%{background-image: url(../Finalprojecthtmlcss3/images/HPOmen164.jpg);}
+    100%{background-image: url(../Finalprojecthtmlcss3/images/HPOmen16.png);}
 }
 
 #homebutton{
