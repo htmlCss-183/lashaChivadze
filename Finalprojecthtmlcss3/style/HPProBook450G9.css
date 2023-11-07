@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: monterrat;
-    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(../Finalprojecthtmlcss3/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 
@@ -97,7 +97,7 @@ nav a:hover::before{
     position: absolute;
     left: 150px;
     top: 50px;
-    background-image: url(/images/HP\ ProBook\ 450\ G9.jpg);
+    background-image: url(../Finalprojecthtmlcss3/images/HP\ ProBook\ 450\ G9.jpg);
     background-repeat: no-repeat;
     animation: fotoslider 10s ease-in-out;
     animation-iteration-count: infinite;
@@ -105,11 +105,11 @@ nav a:hover::before{
 }
 
 @keyframes fotoslider{
-    20%{background-image: url(/images/HP\ ProBook\ 450\ G9.jpg);}
-    40%{background-image: url(/images/HP\ ProBook\ 450\ G92.jpg);}
-    60%{background-image: url(/images/HP\ ProBook\ 450\ G93.jpg);}
-    80%{background-image: url(/images/HP\ ProBook\ 450\ G94.jpg);}
-    100%{background-image: url(/images/HP\ ProBook\ 450\ G9.jpg);}
+    20%{background-image: url(../Finalprojecthtmlcss3/images/HP\ ProBook\ 450\ G9.jpg);}
+    40%{background-image: url(../Finalprojecthtmlcss3/images/HP\ ProBook\ 450\ G92.jpg);}
+    60%{background-image: url(../Finalprojecthtmlcss3/images/HP\ ProBook\ 450\ G93.jpg);}
+    80%{background-image: url(../Finalprojecthtmlcss3/images/HP\ ProBook\ 450\ G94.jpg);}
+    100%{background-image: url(../Finalprojecthtmlcss3/images/HP\ ProBook\ 450\ G9.jpg);}
 }
 
 #homebutton{
