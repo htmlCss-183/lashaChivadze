@@ -115,7 +115,7 @@ nav a:hover::before{
 .information{
     background-color: black;
     position: absolute;
-    top: 1300px;
+    top: 500px;
     right: 0;
     width: 1264px;
     height: 400px;
