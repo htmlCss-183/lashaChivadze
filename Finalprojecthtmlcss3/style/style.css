@@ -1,6 +1,6 @@
 @font-face {
     font-family: montserrat;
-    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(../Finalprojecthtmlcss3/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 body{
@@ -147,15 +147,15 @@ ul li:hover ul.dropdownul{
 
 @keyframes fotoslider{
     
-    0%{background-image:url(/images/foto5.jpg);}
+    0%{background-image:url(../Finalprojecthtmlcss3/images/foto5.jpg);}
 
-    25%{background-image:url(/images/fotoimage3.jpg);}
+    25%{background-image:url(../Finalprojecthtmlcss3/images/fotoimage3.jpg);}
 
-    50%{background-image:url(/images/foto4.jpg);}
+    50%{background-image:url(../Finalprojecthtmlcss3/images/foto4.jpg);}
 
-    75%{background-image:url(/images/foto2.jpg);}
+    75%{background-image:url(../Finalprojecthtmlcss3/images/foto2.jpg);}
 
-    100%{background-image:url(/images/foto5.1.jpg);}
+    100%{background-image:url(../Finalprojecthtmlcss3/images/foto5.1.jpg);}
 
 }
 
