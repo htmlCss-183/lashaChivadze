@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: monterrat;
-    src: url(../Finalprojecthtmlcss3/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 
@@ -104,7 +104,7 @@ nav a:hover::before{
     position: absolute;
     left: 150px;
     top: 50px;
-    background-image: url(../Finalprojecthtmlcss3/images/bestseller1.1link.png);
+    background-image: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/images/bestseller1.1link.png);
     background-repeat: no-repeat;
     animation: fotoslider 10s ease-in-out;
     animation-iteration-count: infinite;
@@ -112,11 +112,11 @@ nav a:hover::before{
 }
 
 @keyframes fotoslider{
-    20%{background-image: url(../Finalprojecthtmlcss3/images/bestseller1.1link.png);}
-    40%{background-image: url(../Finalprojecthtmlcss3/images/vivobookslider2.png);}
-    60%{background-image: url(../Finalprojecthtmlcss3/images/vivobookslider3.png);}
-    80%{background-image: url(../Finalprojecthtmlcss3/images/vivobookslider4.png);}
-    100%{background-image: url(../Finalprojecthtmlcss3/images/bestseller1.1link.png);}
+    20%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/images/bestseller1.1link.png);}
+    40%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/images/vivobookslider2.png);}
+    60%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/images/vivobookslider3.png);}
+    80%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/images/vivobookslider4.png);}
+    100%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/images/bestseller1.1link.png);}
 }
 
 #homebutton{
