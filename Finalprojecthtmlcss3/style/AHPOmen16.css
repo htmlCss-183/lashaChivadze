@@ -110,11 +110,11 @@ nav a:hover::before{
 }
 
 @keyframes fotoslider{
-    20%{background-image: url(../Finalprojecthtmlcss3/images/HPOmen16.png);}
-    40%{background-image: url(../Finalprojecthtmlcss3/images/HPOmen162.jpg);}
-    60%{background-image: url(../Finalprojecthtmlcss3/images/HPOmen163.jpg);}
-    80%{background-image: url(../Finalprojecthtmlcss3/images/HPOmen164.jpg);}
-    100%{background-image: url(../Finalprojecthtmlcss3/images/HPOmen16.png);}
+    20%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/images/HPOmen16.png);}
+    40%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/images/HPOmen162.jpg);}
+    60%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/images/HPOmen163.jpg);}
+    80%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/images/HPOmen164.jpg);}
+    100%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/Finalprojecthtmlcss3/images/HPOmen16.png);}
 }
 
 #homebutton{
