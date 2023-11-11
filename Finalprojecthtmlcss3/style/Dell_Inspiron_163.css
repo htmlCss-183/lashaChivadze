@@ -218,7 +218,7 @@ nav a:hover::before{
     border-radius: 5px;
     background-color: #1BC768;
     position: absolute;
-    top: 660px;
+    top: 640px;
     right: 300px;
 }
 
