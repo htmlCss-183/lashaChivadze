@@ -200,7 +200,7 @@ nav a:hover::before{
     border-radius: 5px;
     background-color: #1BC768;
     position: absolute;
-    top: 680px;
+    top: 660px;
     right: 470px;
     
 }
