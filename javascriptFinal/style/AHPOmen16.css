@@ -95,7 +95,7 @@ nav a:hover::before{
     position: absolute;
     left: 150px;
     top: 50px;
-    background-image: url(/images/HPOmen16.png);
+    background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPOmen16.png);
     background-repeat: no-repeat;
     animation: fotoslider 10s ease-in-out;
     animation-iteration-count: infinite;
