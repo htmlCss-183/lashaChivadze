@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: monterrat;
-    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 
@@ -97,7 +97,7 @@ nav a:hover::before{
     position: absolute;
     left: 150px;
     top: 50px;
-    background-image: url(/images/HPNotebook240G8.png);
+    background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPNotebook240G8.png);
     background-repeat: no-repeat;
     animation: fotoslider 10s ease-in-out;
     animation-iteration-count: infinite;
@@ -105,11 +105,11 @@ nav a:hover::before{
 }
 
 @keyframes fotoslider{
-    20%{background-image: url(/images/HPNotebook240G8.png);}
-    40%{background-image: url(/images/HPNotebook240G82.jpg);}
-    60%{background-image: url(/images/HPNotebook240G83.jpg);}
-    80%{background-image: url(/images/HPNotebook240G84.jpg);}
-    100%{background-image: url(/images/HPNotebook240G8.png);}
+    20%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPNotebook240G8.png);}
+    40%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPNotebook240G82.jpg);}
+    60%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPNotebook240G83.jpg);}
+    80%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPNotebook240G84.jpg);}
+    100%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPNotebook240G8.png);}
 }
 
 #homebutton{
