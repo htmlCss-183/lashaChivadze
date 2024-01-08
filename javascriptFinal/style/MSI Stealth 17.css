@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: monterrat;
-    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 body{
@@ -96,7 +96,7 @@ nav a:hover::before{
     position: absolute;
     left: 150px;
     top: 50px;
-    background-image: url(/images/MSI_Stealth_174\ \(3\).png);
+    background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/MSI_Stealth_174\ \(3\).png);
     background-repeat: no-repeat;
     animation: fotoslider 10s ease-in-out;
     animation-iteration-count: infinite;
@@ -104,11 +104,11 @@ nav a:hover::before{
 }
 
 @keyframes fotoslider{
-    20%{background-image: url(/images/MSI_Stealth_174\ \(3\).png);}
-    40%{background-image: url(/images/MSI_Stealth_174\ \(2\).png);}
-    60%{background-image: url(/images/MSI_Stealth_174.png);}
-    80%{background-image: url(/images/MSI_Stealth_174\ \(1\).png);}
-    100%{background-image: url(/images/MSI_Stealth_174\ \(3\).png);}
+    20%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/MSI_Stealth_174\ \(3\).png);}
+    40%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/MSI_Stealth_174\ \(2\).png);}
+    60%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/MSI_Stealth_174.png);}
+    80%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/MSI_Stealth_174\ \(1\).png);}
+    100%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/MSI_Stealth_174\ \(3\).png);}
 }
 
 #homebutton{
