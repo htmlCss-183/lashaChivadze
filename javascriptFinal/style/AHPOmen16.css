@@ -103,11 +103,11 @@ nav a:hover::before{
 }
 
 @keyframes fotoslider{
-    20%{background-image: url(/images/HPOmen16.png);}
-    40%{background-image: url(/images/HPOmen162.jpg);}
-    60%{background-image: url(/images/HPOmen163.jpg);}
-    80%{background-image: url(/images/HPOmen164.jpg);}
-    100%{background-image: url(/images/HPOmen16.png);}
+    20%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPOmen16.png);}
+    40%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPOmen162.jpg);}
+    60%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPOmen163.jpg);}
+    80%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPOmen164.jpg);}
+    100%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/HPOmen16.png);}
 }
 
 #homebutton{
