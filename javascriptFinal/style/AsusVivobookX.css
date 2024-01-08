@@ -105,11 +105,11 @@ nav a:hover::before{
 }
 
 @keyframes fotoslider{
-    20%{background-image: url(/images/Asus_Vivobook_X4\ \(1\).png);}
-    40%{background-image: url(/images/Asus_Vivobook_X4\ \(2\).png);}
-    60%{background-image: url(/images/Asus_Vivobook_X4\ \(3\).png);}
-    80%{background-image: url(/images/Asus_Vivobook_X4\ \(3\).png);}
-    100%{background-image: url(/images/Asus_Vivobook_X4\ \(4\).png);}
+    20%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/Asus_Vivobook_X4\ \(1\).png);}
+    40%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/Asus_Vivobook_X4\ \(2\).png);}
+    60%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/Asus_Vivobook_X4\ \(3\).png);}
+    80%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/Asus_Vivobook_X4\ \(3\).png);}
+    100%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/Asus_Vivobook_X4\ \(4\).png);}
 }
 
 #homebutton{
