@@ -105,11 +105,11 @@ nav a:hover::before{
 }
 
 @keyframes fotoslider{
-    20%{background-image: url(/images/AsusZenbook14Flip.png);}
-    40%{background-image: url(/images/AsusZenbook14flip2.png);}
-    60%{background-image: url(/images/AsusZenbook14Flip3.png);}
-    80%{background-image: url(/images/AsusZenbook14Flip4.png);}
-    100%{background-image: url(/images/AsusZenbook14Flip.png);}
+    20%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/AsusZenbook14Flip.png);}
+    40%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/AsusZenbook14flip2.png);}
+    60%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/AsusZenbook14Flip3.png);}
+    80%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/AsusZenbook14Flip4.png);}
+    100%{background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/AsusZenbook14Flip.png);}
 }
 
 #homebutton{
