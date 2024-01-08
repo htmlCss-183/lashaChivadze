@@ -97,7 +97,7 @@ nav a:hover::before{
     position: absolute;
     left: 150px;
     top: 50px;
-    background-image: url(/images/Asus_Vivobook_X4\ \(1\).png);
+    background-image: url(https://htmlcss-183.github.io/lashaChivadze/javascriptFinal/images/Asus_Vivobook_X4\ \(1\).png);
     background-repeat: no-repeat;
     animation: fotoslider 10s ease-in-out;
     animation-iteration-count: infinite;
