@@ -17,17 +17,15 @@ body {
     text-align: center;
 }
 
-#form button {
-    padding: 10px;
-    margin-top: 10px;
-    width: 100%;
+#submit{
     color: white;
-    background-color: rgb(41, 57, 194);
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    background-color: #07a9ee;
+    padding: 10px 120px;
+    border-radius: 10px;
+    position: relative;
+    font-weight: bolder;
+    font-size: 15px;
 }
-
 
 
 .input-control {
